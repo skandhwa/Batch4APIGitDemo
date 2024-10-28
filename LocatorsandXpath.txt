@@ -1,0 +1,67 @@
+Browser Commands
+
+1. driver.get
+2.driver.getTitle
+3. driver.getCurrentURL
+4. driver.getPageSource
+5.driver.close
+6.driver.quit
+
+
+8 types
+
+1.id
+
+<input required="" autocomplete="off" placeholder="First Name" type="text" id="firstName" class=" mr-sm-2 form-control" fdprocessedid="lnrq7k">
+
+
+2.name
+[name='name']
+
+
+3.classname
+
+[class='classname']
+
+
+
+
+4.tagname
+5.linktext
+6.partiallinktext
+7.xpath 
+
+
+//tagname[@attribute='value']
+
+<input name="name" id="name" type="text" class="form-control" placeholder="First Name" fdprocessedid="pb8kbe">
+
+//input[@id='name']
+
+
+<button id="submit" type="submit" class="btn btn-primary" fdprocessedid="owfp8c">Submit</button>
+
+//button[@id='submit']
+
+<input name="mobile" id="mobile" type="text" class="form-control" placeholder="Enter Mobile Number" fdprocessedid="1aakj8">
+
+//input[@class='form-control']
+
+(//input[@class='form-control'])[5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/html/body/main/div/div/div[2]/form/div[1]/div/input
+8.csss
