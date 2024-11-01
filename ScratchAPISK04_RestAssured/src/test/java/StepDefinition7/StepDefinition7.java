@@ -61,6 +61,8 @@ public class StepDefinition7 {
 		
 		response_API=	res.when().post(endpoint).then().log().all().spec(respec)
 		.extract().response();
+
+		System.out.println("Hello");
 		
 		
 		
